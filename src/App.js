@@ -13,7 +13,7 @@ function App() {
 const Counter = () => {
   const [counterval, SetCounterVal] = useState(0);
   const handleIncrement = () => {
-    SetCounterVal(counterval + 1);
+    SetCounterVal(counterval + 5);
   };
 
   const handleDecrement = () => {
